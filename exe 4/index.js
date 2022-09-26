@@ -1,6 +1,6 @@
 const nombre = "Lucas ";
 const apellido = "González";
-const estudiante = nombre + apellido;
+const estudiante = nombre.concat(" ").concat(apellido);
 const estudianteMayus = estudiante;
 const estudianteMinus = estudiante;
 const numletras = estudiante;
@@ -14,6 +14,6 @@ console.log(estudianteMayus.toUpperCase());
 console.log(estudianteMinus.toLowerCase());
 console.log(numletras.length);
 console.log(primlet.charAt());
-console.log(ultlet.charAt(7));
-console.log(nospace.trim());
+console.log(ultlet.substring(apellido.length -1));
+console.log(nospace.replace(/ /g, ""));
 console.log(estudiante.includes(nombre))
