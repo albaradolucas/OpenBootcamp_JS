@@ -1,0 +1,1 @@
+const edad = prompt("¿Qué edad tenes?");
