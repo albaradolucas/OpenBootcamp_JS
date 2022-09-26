@@ -1,11 +1,8 @@
-for (let i = 0; i <= 20; i++) {
-    console.log(i);
-    
-    if(i<=10) {
-        console.log(i);
-        continue;
-    }
-    else {
-        break;
-    }
+let factorial = 1
+let num = 10
+while (true) {
+    factorial *= num
+    num--
+    if (num === 1) break
 }
+console.log(factorial)

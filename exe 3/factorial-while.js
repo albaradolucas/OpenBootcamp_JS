@@ -1,6 +1,8 @@
-let i = 0;
+let i = 1;
 let max = 10;
 
-while (i <= max) {
-    console.log(i);
+while (max > 1) {
+    i *= max
+    max--
 }
+console.log(i);
