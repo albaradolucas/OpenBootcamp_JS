@@ -1,0 +1,10 @@
+const nombre = 'Lucas';
+const apellido = "González";
+const estudiante = nombre.concat(` `).concat(apellido);
+const estudianteMayus = estudiante;
+const estudianteMinus = estudiante;
+const numletras = estudiante;
+const primlet = nombre;
+const ultlet = apellido;
+const nospace = estudiante;
+const esta = nombre;
